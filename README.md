@@ -27,7 +27,7 @@ CardShield-AI/
 │
 ├── requirements.txt                                      # Required dependencies
 └── README.md 
-</pre>
+<pre>
 
 # 📂 Dataset
 This notebook uses the popular Credit Card Fraud Detection Dataset, containing:
