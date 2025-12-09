@@ -81,12 +81,12 @@ cd CardShield-AI-Fraud-Identification
 
 **2️⃣ Install Dependencies**
 <pre> 
-    pip install -r requirements.txt 
+pip install -r requirements.txt 
 </pre>
 
 **3️⃣ Run Streamlit App**
 <pre> 
-    streamlit run cardshield_app.py
+streamlit run cardshield_app.py
 </pre>
 
 # 🤖 Best Performing Model (Recommended)
