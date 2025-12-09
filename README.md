@@ -1,8 +1,4 @@
-<p align="center"> <img src="https://img.shields.io/badge/CardShield%20AI-Fraud%20Identification%20System-blueviolet?style=for-the-badge&logo=python&logoColor=white" /> </p> <h1 align="center">🔐 CardShield AI – Fraud Identification System</h1> <p align="center"> 
-    
-# 🚀 Machine Learning + Streamlit Web App
-<p align="center"> <img src="https://img.icons8.com/color/96/000000/shield.png" width="90" /> </p>    
-An advanced, end-to-end Machine Learning pipeline for detecting fraudulent credit card transactions using SMOTE, feature scaling, and optimized classification models. </p>
+<p align="center"> <img src="https://img.shields.io/badge/CardShield%20AI-Fraud%20Identification%20System-blueviolet?style=for-the-badge&logo=python&logoColor=white" /> </p> <h1 align="center">🔐 CardShield AI – Fraud Identification System</h1> <p align="center"> An advanced, end-to-end Machine Learning pipeline for detecting fraudulent credit card transactions using SMOTE, feature scaling, and optimized classification models. </p>
 
 # 🚀 Project Overview
 CardShield AI is a complete fraud-detection system built using machine learning to classify credit card transactions as fraudulent or legitimate.
@@ -75,6 +71,23 @@ StandardScaler used for:
 Implemented models:
 - Logistic Regression
 - Random Forest Classifier (Optimized: n_estimators=500)
+
+# 📦 Installation
+**1️⃣ Clone the Repository**
+<pre>
+git clone https://github.com/ayush13-0/CardShield-AI-Fraud-Identification.git
+cd CardShield-AI-Fraud-Identification
+</pre>
+
+**2️⃣ Install Dependencies**
+<pre> 
+    pip install -r requirements.txt 
+</pre>
+
+**3️⃣ Run Streamlit App**
+<pre> 
+    streamlit run cardshield_app.py
+</pre>
 
 # 🤖 Best Performing Model (Recommended)
 
