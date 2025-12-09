@@ -11,21 +11,24 @@ The system applies:
 - ✔ Performance Evaluation
 This project follows a clean, modular, industry-style ML pipeline suitable for deployment or integration into financial software.
 
-# 📁 Project Folder Structure :-
-<h2> CardShield-AI/
+<h2>📁 CardShield-AI – Project Structure</h2>
+<pre>
+CardShield-AI/
 │
-├── CardShield AI – Fraud Identification System.ipynb     # Main Jupyter Notebook
+├── <b>CardShield AI – Fraud Identification System.ipynb</b>     # Main Jupyter Notebook
 │
-├── CardShield.py                                         # Primary Python source file
-├── CardShield2.py                                        # Additional script (testing/alternate version)
+├── <b>CardShield.py</b>                                         # Primary Python script
+├── <b>CardShield2.py</b>                                        # Secondary test script
 │
-├── creditcard.xlsx                                       # Dataset (Excel format)
+├── <b>creditcard.xlsx</b>                                       # Dataset
 │
-├── model.pkl                                             # Trained Random Forest model
-├── scaler.pkl                                            # StandardScaler object (fitted)
+├── <b>model.pkl</b>                                             # Trained Random Forest model
+├── <b>scaler.pkl</b>                                            # StandardScaler object
 │
-├── requirements.txt                                      # Required dependencies
-└── README.md </pre>
+├── <b>requirements.txt</b>                                      # Required dependencies
+└── <b>README.md</b>                                             # Documentation
+</pre>
+
 
 # 📂 Dataset
 This notebook uses the popular Credit Card Fraud Detection Dataset, containing:
@@ -56,14 +59,16 @@ Implemented models:
 
 # 🤖 Best Performing Model (Recommended)
 
-<h2> RandomForestClassifier(
+<h2> 
+    <pre> RandomForestClassifier(
     n_estimators=500,
     max_depth=None,
     min_samples_split=2,
     min_samples_leaf=1,
     random_state=42,
     n_jobs=-1
-) </pre>
+) 
+</pre>
 
 # 📈 Evaluation Metrics
 The model is evaluated using:
