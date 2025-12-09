@@ -17,8 +17,8 @@ CardShield-AI/
 │
 ├── <b>CardShield AI – Fraud Identification System.ipynb</b>     # Main Jupyter Notebook
 │
-├── <b>CardShield.py</b>                                         # Primary Python script
-├── <b>CardShield2.py</b>                                        # Secondary test script
+├── <b>CardShield.py</b>                                         # Streamlit Main script
+├── <b>CardShield2.py</b>                                        # Streamlit Alternative Script
 │
 ├── <b>creditcard.xlsx</b>                                       # Dataset
 │
@@ -37,6 +37,21 @@ This notebook uses the popular Credit Card Fraud Detection Dataset, containing:
 - Highly imbalanced data
 - All features V1–V28 are PCA-transformed components
 - Amount, Time, and target variable Class
+
+# ⭐ Features
+🔍 Machine Learning Pipeline
+- Data preprocessing & cleaning
+- Handling imbalance using SMOTE
+- Feature scaling (StandardScaler)
+- Model training (Logistic Regression & Random Forest)
+- Model evaluation (Confusion Matrix, Classification Report, ROC-AUC)
+
+# 🌐 Streamlit Web Application
+- Predict fraud for single transactions
+- Score bulk transactions via CSV upload
+- Download prediction results
+- Modern UI with dark theme
+- Dummy rule-based logic (can easily be replaced with ML model)
 
 # 📊 Project Pipeline
 **1️⃣ Data Preprocessing**
